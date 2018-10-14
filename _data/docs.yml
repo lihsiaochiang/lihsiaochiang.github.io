@@ -1,10 +1,10 @@
-- title: Getting Started
+- title: A-关于分享
   docs:
   - home
-  - themes
-  - customization
+  - todo
+  - feedback
 
-- title: Examples
+- title: H-网站技术
   docs:
   - cheatsheet
   - font-awesome

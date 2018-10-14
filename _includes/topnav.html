@@ -6,6 +6,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
             <a class="navbar-brand" href="{{ site.baseurl }}/">
                 <span><img src="{{site.baseurl}}/img/logonav.png" alt="Logo"></span> {{ site.title }}
@@ -13,8 +15,13 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/home/" | prepend: site.baseurl }}">Docs</a></li>
-                <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | prepend: site.baseurl }}">Blog</a></li>
+                <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/home/" | prepend: site.baseurl }}">分享</a></li>
+
+                <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | prepend: site.baseurl }}">博客</a></li>
+
+                <li {% if page.sectionid=='project' %} class="active" {% endif %}><a href="{{ "/allprojects" | prepend: site.baseurl }}">项目</a></li>
+
+                <li {% if page.sectionid=='book' %} class="active" {% endif %}><a href="{{ "/allbooks" | prepend: site.baseurl }}">读书</a></li>
             </ul>
             <div class="navbar-right">
                 <form class="navbar-form navbar-left">
