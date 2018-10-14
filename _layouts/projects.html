@@ -7,12 +7,12 @@ layout: default
 
         <div class="col-md-4">
             <div class="well">
-                <h4>近期文章</h4>
+                <h4>近期项目</h4>
                 <ul class="list-unstyled post-list-container">
-                    {% for post in site.posts limit:10 %}
+                    {% for post in site.projects limit:10 %}
                     <li><a href="{{ post.url | prepend: site.baseurl }}" {% if page.title==post.title %} class="active" {% endif %}>{{ post.title }}</a></li>
                     {% endfor %}
-                    <li><a href="{{ "/allposts" | prepend: site.baseurl }}">全部文章 ...</a></li>
+                    <li><a href="{{ "/allprojects" | prepend: site.baseurl }}">全部项目 ...</a></li>
                 </ul>
             </div>
         </div>
@@ -41,5 +41,3 @@ layout: default
         </div>
     </div>
 </div>
-
-

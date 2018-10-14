@@ -48,6 +48,21 @@ defaults:
     seo:
       type: "WebPage"
 
+- scope:
+    path: _projects
+    type: projects
+  values:
+    layout: projects
+    sectionid: projects
+
+- scope:
+    path: _books
+    type: books
+  values:
+    layout: books
+    sectionid: books
+
+
 collections:
   docs:
     permalink: /:collection/:path/
@@ -55,3 +70,14 @@ collections:
   posts:
     permalink: /blog/:year/:month/:day/:title/
     output: true
+  projects:
+    permalink: /projects/:year/:month/:day/:title/
+    output: true
+  books:
+    permalink: /books/:year/:month/:day/:title/
+    output: true
+
+# disqus
+disqus:
+    shortname: https-lihsiaochiang-github-io
+
