@@ -18,7 +18,8 @@ bootwatch: paper
 # Build settings
 markdown: kramdown
 highlighter: rouge
-gems:
+plugins:
+#gems:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
