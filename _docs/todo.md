@@ -1,6 +1,6 @@
 ---
 title: 更新计划
-permalink: /docs/todo/
+permalink: /docs/Todo/
 ---
 
 ### 更新计划
