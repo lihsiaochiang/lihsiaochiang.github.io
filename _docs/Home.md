@@ -1,6 +1,6 @@
 ---
 title: 欢迎
-permalink: /docs/Home/
-redirect_from: /docs/Index.html
+permalink: /docs/home/
+redirect_from: /docs/index.html
 ---
 
